@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 /* Reset de márgenes y paddings */
 * {
     margin: 0;
@@ -72,11 +75,93 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Pie de página */
-footer {
-    background: #333;
-    color: #fff;
+
+/*aqui va el footer*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+   /* *background-image: url(../eleccion-examen/imagenes/background-footer.svg);
+    *background-size: cover;*/
+    background-color: #d0f0f8;
+    -webkit-mask-image: url("/logos-y-mas/background-footer.svg") ;
+    mask-image: url("/logos-y-mas/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto; 
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 100px;
+}
+
+
+.box__footer .patrocinadores img {
+    width: 75px; /* Ajusta el tamaño de las imágenes */
+    opacity: 0.5; /* 50% de transparencia */
+    transition: opacity 0.3s ease; /* Suaviza la transición al hover */
+}
+
+.box__footer .patrocinadores img:hover {
+    opacity: 1; /* Las imágenes volverán a su opacidad total al pasar el mouse */
+}
+
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 0px 40px;
+
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height:  1px;
+    background-color: #7a7a7a;
 }
