@@ -81,7 +81,7 @@ button:hover {
 footer {
     width: 100%;
     padding: 50px 0px;
-    background-color: #d0f0f8;
+    background-color: #008000;
     -webkit-mask-image: url("/logos-y-mas/background-footer.svg");
     mask-image: url("/logos-y-mas/background-footer.svg");
     -webkit-mask-size: cover;
