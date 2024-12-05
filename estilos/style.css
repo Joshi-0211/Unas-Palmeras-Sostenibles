@@ -10,12 +10,7 @@
     text-decoration: none;
 }
 
-/* Estilos básicos */
-body {
-    background-color: #f3f3f3;
-    color: #333;
-    line-height: 1.6;
-}
+
 header {
     width: 100%;
     position: fixed;
@@ -174,6 +169,26 @@ nav ul li ul li a:hover{
 
 }
 
+/*articulos*/
+main{
+    background: #f0f0f0;
+    padding: 40px 20px;
+    margin-top: 280px;
+}
+
+article{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #fff;
+}
+
+article p {
+    top: 20px;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
 /*elementos responsivos*/
 
 .icon__menu{
@@ -264,53 +279,7 @@ nav ul li ul li a:hover{
 
 }
 
-
-
-
-
-
-nav a {
-    color: #fff;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Secciones */
-section {
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
-}
-
-h2 {
-    color: #4CAF50;
-    margin-bottom: 1rem;
-}
-
-ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-}
-
-/* Botón */
-button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 1rem;
-}
-
-button:hover {
-    background-color: #45a049;
-}
+/*cuerpo*/
 
 
 /*aqui va el footer*/
