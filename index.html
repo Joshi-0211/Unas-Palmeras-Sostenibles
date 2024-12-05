@@ -3,23 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Las Palmeras Sostenible</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="estilos/style.css">
     <script src="https://kit.fontawesome.com/2f8a5675b1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Sección de Inicio -->
-    <header>
-        <h1>Las Palmeras Sostenible</h1>
-        <p>Un proyecto de sensibilización y gestión de residuos en la comunidad.</p>
-        <nav>
-            <a href="#sobre">Sobre el Proyecto</a>
-            <a href="#diagnostico">Diagnóstico</a>
-            <a href="#actividades">Actividades</a>
-            <a href="#impacto">Impacto</a>
-            <a href="#participa">Participa</a>
-        </nav>
-    </header>
+    <!-- cabeza -->
+     <header>
+        <div class="header_-superior">
+            <div class="logo_superior">
+                <img src="/logos-y-mas/logo las palmeras.svg" alt="las palmeras logo">
+            </div>
+
+            <div class="search">
+                <input type="search" placeholder="¿Qué estas buscando?">
+            </div>
+        </div>
+
+
+        <div class="container__menu">
+            <input type="checkbox" id="check__menu">
+            <label id="#label__check" for="check__menu">
+                <i class="fa-solid fa-bars icon__menu"></i>
+            </label>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#" id="selected"></a></li>
+                        <li><a href="#">Sobre El Proyecto</a>
+                            <ul>
+                                <li><a hreft="#">Diagnóstico y Problematica</a></li>
+                                <li><a hreft="#">Actividades Del Proyecto</a></li>
+                                <li><a hreft="#">Impacto Del Proyecto</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Participa</a>
+                            <ul>
+                                <li><a href="#">Unete</a></li>
+                                <li><a href="#">Recursos Educativos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Noticias y Actualizaciones</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+     </header>
 
     <!-- Sección Sobre el Proyecto -->
     <section id="sobre">
