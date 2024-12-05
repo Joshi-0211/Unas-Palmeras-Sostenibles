@@ -77,85 +77,86 @@ button:hover {
 
 
 /*aqui va el footer*/
-
-footer {
+footer{
     width: 100%;
     padding: 50px 0px;
-    background-color: #008000;
-    -webkit-mask-image: url("/logos-y-mas/background-footer.svg");
-    mask-image: url("/logos-y-mas/background-footer.svg");
+    background-color: #bbdabc;
+    -webkit-mask-image: url(../logos-y-mas/background-footer.svg);
+    mask-image: url(../logos-y-mas/background-footer.svg);
     -webkit-mask-size: cover;
     mask-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-.container__footer {
+.container__footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    gap: 20px; /* Espaciado entre elementos */
+    margin-top: 100px;
+
 }
 
-.box__footer {
-    flex: 1 1 300px; /* Permite flexibilidad y mínimo de 300px */
+.box__footer{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
+
 }
 
-.box__footer .logo img {
-    width: auto;
-    height: 150px; /* Ajusta según tu diseño */
-    margin: 0 auto;
-    display: block;
+.box__footer .logo img{
+    width: 200px;
 }
 
-.box__footer .terms {
+.box__footer .terms{
+    max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
     color: #7a7a7a;
-    font-size: 16px;
-    text-align: justify;
+    font-size: 18px;
+
 }
 
-.box__footer h2 {
-    margin-bottom: 20px;
+.box__footer h2{
+    margin-bottom: 30px;
     color: #343434;
     font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
+
 }
 
-.box__footer a {
+.box__footer a{
     margin-top: 10px;
     color: #7a7a7a;
     font-weight: 600;
-    text-decoration: none;
+
 }
 
-.box__footer a:hover {
-    opacity: 0.8;
+.box__footer a:hover{
+ opacity: 0.8;
 }
 
-.box__copyright {
+.box__footer a .fab{
+    font-size: 20px;
+
+}
+
+
+.box__copyright{
     max-width: 1200px;
     margin: auto;
     text-align: center;
-    padding: 20px 40px;
+    padding: 0px 40px;
+    
 }
 
-.box__copyright p {
-    margin-top: 20px;
-    color: #7a7a7a;
-    font-size: 14px;
+.box__copyright p{
+margin-top: 20px;
+color: #7a7a7a;
+
 }
 
-.box__copyright hr {
+.box__copyright hr{
     border: none;
     height: 1px;
     background-color: #7a7a7a;
-    margin-bottom: 20px;
 }
